@@ -59,6 +59,7 @@ app.get('/weather',(req,res)=>{
 })
 
 app.get('/products',(req,res)=>{
+    console.log('hello to check commit')
     if(!req.query.search){
      return res.send({
           error:"Write check value"
